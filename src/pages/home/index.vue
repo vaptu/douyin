@@ -243,7 +243,8 @@ import BaseMask from '@/components/BaseMask.vue'
 const nav = useNav()
 const baseStore = useBaseStore()
 const uploader = ref()
-const isMobile = ref(/Mobi|Android|iPhone/i.test(navigator.userAgent))
+// const isMobile = ref(/Mobi|Android|iPhone/i.test(navigator.userAgent))
+const isMobile = true
 
 const state = reactive({
   active: true,
